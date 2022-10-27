@@ -39,6 +39,18 @@ y = {20,30,"cow"}
 z = x.union(y)
 print(z)
 
+A = {19, 22, 24, 20, 25, 26}
+B = {19, 22, 20, 25, 26, 24, 28, 27}
+C = A.union(B)
+D = A.intersection(B)
+E = A.issubset(B)
+F = A.symmetric_difference(B)
+print(C)
+print(D)
+print(E)
+print(F)
+A.clear()
+B.clear()
 
 
 
